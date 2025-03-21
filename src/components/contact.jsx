@@ -76,7 +76,7 @@ export const ContactForm = () => {
       <h1 id="contact" className="text-3xl text-[#252525] font-black text-center">
         Contact
         <span className="block w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 mx-auto mt-3 rounded-full"></span>      </h1>
-      <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg border-2 mb-8 mt-12">
+      <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg border-2 mb-8 mt-12 ">
         {submitted && (
           <p className="text-center text-green-500">
             Message Submitted Successfully

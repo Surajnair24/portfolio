@@ -30,7 +30,7 @@ export const Projects = () => {
             </div>
             <div className="text-center lg:text-left lg:pt-5 ">
               <h1 className="text-2xl text-[#252525] font-bold">MovieFlix</h1>
-              <p className="mt-6 text-lg leading-relaxed">
+              <p className="mt-6 text-lg leading-relaxed md:text-justify text-justify">
                 MovieFlix is a feature-rich web app designed to help users
                 discover and manage their favorite movies with ease. It includes
                 a search feature, sections for upcoming and top-rated movies, a
@@ -64,7 +64,7 @@ export const Projects = () => {
             </div>
             <div className="text-center lg:text-left lg:pt-10">
               <h1 className="text-2xl text-[#252525] font-bold">WeatherApp</h1>
-              <p className="mt-6 text-lg leading-relaxed">
+              <p className="mt-6 text-lg leading-relaxed md:text-justify text-justify">
                 The Weather App is built with React.js and powered by
                 WeatherAPI.com, providing real-time weather updates in a sleek
                 and interactive UI. Users can search for any city or use
@@ -97,7 +97,7 @@ export const Projects = () => {
               <h1 className="text-2xl text-[#252525] font-bold">
                 Voice of Tenkasi Foundation Website
               </h1>
-              <p className="mt-6 text-lg leading-relaxed">
+              <p className="mt-6 text-lg leading-relaxed md:text-justify text-justify">
                 I had the opportunity to redesign the website for Voice of
                 Tenkasi Foundation, a non-profit organization based in Tenkasi.
                 Using WordPress and Elementor.Additionally, I managed the domain
@@ -123,7 +123,7 @@ export const Projects = () => {
               <h1 className="text-2xl text-[#252525] font-bold">
                 Raphael Drones Website
               </h1>
-              <p className="mt-6 text-lg leading-relaxed">
+              <p className="mt-6 text-lg leading-relaxed md:text-justify text-justify">
                 I designed and developed the website for Raphael Drones using
                 WordPress and Elementor, creating a sleek, responsive, and
                 user-friendly interface. The website showcases the brand's
