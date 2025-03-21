@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import { Menu } from "./components/menu";
 import { Hero } from "./components/hero";
 import './App.css'
