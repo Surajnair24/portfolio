@@ -1,21 +1,48 @@
 import React from "react";
-import logo from "../assets/background.jpg"; 
+import { FaDownload, FaLinkedin, FaGithub } from "react-icons/fa";
+import bgImage from "../assets/background.jpg";
 export const Hero = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md px-6 py-4 flex items-center justify-between">
-      
-      <div className="flex items-center gap-4">
-        <img src={logo} alt="Logo" className="w-10 h-10" />
-        <h1 className="text-xl font-bold text-[#252525]">Suraj S Nair</h1>
+    <section
+      id="home"
+      className="h-screen w-full flex item-center justify-center relative bg-cover bg-center"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div className="relative flex flex-col text-center justify-center items-center ">
+        <h1 className="text-5xl font-black text-[#252525]">
+          HI, I'M SURAJ S NAIR
+        </h1>
+        <p className="text-xl mt-4  max-w-5xl md:text-center text-center ">
+          A passionate Web Developer focused on developing and maintaining websites
+          and web applications that enhance user experience and drive success.
+        </p>
+        <a
+          download="Suraj_S_Nair_Resume.pdf"
+          href="/resume.pdf"
+          className="mt-6 inline-flex items-center gap-2 bg-[#7843E9] px-4 py-2 text-lg rounded font-semibold text-white hover:bg-[#5e2cb1] transition"
+        >
+          <FaDownload />
+          Download Resume
+        </a>
       </div>
-
-      
-      <nav className="hidden md:flex gap-6 text-lg">
-        <a href="#home" className="hover:text-[#5e2cb1] transition">Home</a>
-        <a href="#about" className="hover:text-[#5e2cb1] transition">About</a>
-        <a href="#projects" className="hover:text-[#5e2cb1] transition">Projects</a>
-        <a href="#contact" className="hover:text-[#5e2cb1] transition">Contact</a>
-      </nav>
-    </header>
+      <div className="absolute bottom-6 justify-center flex gap-4">
+        <a
+          href="https://linkedin.com/in/suraj-s-nair-a79182201"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#252525] hover:text-[#5e2cb1] transition text-4xl rounded-2xl"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/Surajnair24"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#252525] hover:text-[#5e2cb1] transition text-4xl rounded-2xl"
+        >
+          <FaGithub />
+        </a>
+      </div>
+    </section>
   );
 };
