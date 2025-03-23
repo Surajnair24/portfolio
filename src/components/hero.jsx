@@ -18,7 +18,7 @@ export const Hero = () => {
         </p>
         <a
           download="Suraj_S_Nair_Resume.pdf"
-          href="/resume.pdf"
+          href="/portfolio/resume.pdf"
           className="mt-6 inline-flex items-center gap-2 bg-[#7843E9] px-4 py-2 text-lg rounded font-semibold text-white hover:bg-[#5e2cb1] transition"
         >
           <FaDownload />
